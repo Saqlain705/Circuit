@@ -1,0 +1,13 @@
+public class Node {
+    private static int nextId = 0;
+    private int id;
+
+    public Node() {
+        this.id = nextId++;
+    }
+
+    @Override
+    public String toString() {
+        return Integer.toString(id);
+    }
+}
